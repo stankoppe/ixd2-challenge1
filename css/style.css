@@ -1,0 +1,76 @@
+/* telefoon */
+
+@media only screen and (min-device-width: 667px) and (max-device-width: 1024px) {
+	body {
+		max-width: 670px;
+		margin: 0 auto;
+	}
+}
+/* ipad */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1600px) {
+	body {
+		max-width: 870px;
+		margin: 0 auto;
+	}
+}
+/* desktop */
+
+@media only screen and (min-device-width: 1600px) and (max-device-width: 7000px) {
+	body {
+		max-width: 1270px;
+		margin: 0 auto;
+	}
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+main {
+	padding: 20px;
+}
+.graphiccontainer {
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid white;
+	margin: 40px;
+}
+.graphiccontainer img {
+	width: 100%;
+}
+* {
+	background-color: #101935;
+	color: white;
+  font-family: 'Glegoo';
+}
+canvas, #chart1 {
+	background-color: #101935;
+	color: white;
+}
+header {
+	text-align: center;
+	margin-top: 20px;
+	border-bottom: 1px solid white;
+}
+header, p {
+	margin-bottom: 20px;
+}
+.countdownding {
+	text-align: center;
+	font-size: 40px;
+}
+#demo {
+	margin: 0px;
+	font-size: 40px;
+}
+.speed {
+	color: white;
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 40px;
+}
+
+.countdownding, p {
+  margin-top: 10px;
+}
